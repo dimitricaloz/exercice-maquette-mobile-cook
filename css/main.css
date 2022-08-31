@@ -30,6 +30,7 @@ body {
 body {
   scroll-behavior: smooth;
   font-family: 'Libre Franklin', sans-serif;
+  max-width: 400px;
 }
 
 h1 {
@@ -39,10 +40,81 @@ h1 {
   font-weight: 700;
   color: white;
   font-size: 11px;
-  margin-left: 118px;
-  margin-right: 118px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
 }
 
 img {
-  
+  max-width: 320px;
+  margin-top: 20px;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Sorts Mill Goudy";
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+div p {
+  font-family: "Sorts Mill Goudy";
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main {
+  background-color: #ebede8;
+}
+
+article {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+article img {
+  max-width: 300px;
+}
+
+article p {
+  background-color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: "Sorts Mill Goudy";
+  text-align: left;
+}
+
+footer a {
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
 }
