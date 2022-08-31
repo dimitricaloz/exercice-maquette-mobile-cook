@@ -10,7 +10,6 @@
 // ==================================== */
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -23,22 +22,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
   font-size: 1rem;
   line-height: 1.5rem;
+  text-align: center;
 }
 
-a {
-  color: inherit;
+body {
+  scroll-behavior: smooth;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: text-top;
+h1 {
+  border-radius: 30px; 
+  background: #e33d26; 
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  font-size: 11px;
+  margin-left: 118px;
+  margin-right: 118px;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+img {
+  
+}
