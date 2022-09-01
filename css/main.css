@@ -93,8 +93,6 @@ article img {
 article p {
   background-color: white;
   font-size: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 h4 {
@@ -112,9 +110,16 @@ footer {
   color: white;
   font-family: "Sorts Mill Goudy";
   text-align: left;
+  padding-bottom: 20px;
 }
 
 footer a {
   color: white;
   font-family: 'Libre Franklin', sans-serif;
+  display: block;
+}
+
+h5 {
+  margin-top: 10px;
+  padding-top: 20px;
 }
